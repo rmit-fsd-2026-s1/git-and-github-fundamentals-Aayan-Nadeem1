@@ -50,12 +50,10 @@ text-align: center;
 margin-top: 10px;
 }
 
-/* Error highlighting */
 input.error{
 border: 2px solid red;
 }
 
-/* Password strength text */
 #strength{
 font-size: 12px;
 margin-bottom: 5px;
