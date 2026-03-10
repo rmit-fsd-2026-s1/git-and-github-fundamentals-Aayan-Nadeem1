@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-   <div class="container">
-        <h1>Create an Account</h1>
 
-        <form id="registerForm">
+<div class="container">
 
-            <label>Full Name</label>
-            <input type="text" id="name" placeholder="Enter your name">
+<h1>Create an Account</h1>
 
-            <label>Email</label>
-            <input type="email" id="email" placeholder="Enter your email">
+<form id="registerForm">
 
-            <label>Password</label>
-            <input type="password" id="password" placeholder="Enter password">
+<label>Full Name</label>
+<input type="text" id="name" placeholder="Enter your name">
 
-            <label>Confirm Password</label>
-            <input type="password" id="confirmPassword" placeholder="Confirm password">
+<label>Email</label>
+<input type="email" id="email" placeholder="Enter your email">
 
-            <button type="submit">Register</button>
+<label>Password</label>
+<input type="password" id="password" placeholder="Enter password">
+<small id="strength"></small>
 
-            <p id="message"></p>
+<label>Confirm Password</label>
+<input type="password" id="confirmPassword" placeholder="Confirm password">
 
-        </form>
-    </div>
+<button type="submit">Register</button>
+
+<p id="message"></p>
+
+</form>
+
+</div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
